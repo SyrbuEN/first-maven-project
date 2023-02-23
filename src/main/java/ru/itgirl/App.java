@@ -2,10 +2,8 @@ package ru.itgirl;
 
 import java.util.Scanner;
 
-public class App 
-{
-    public static void main( String[] args )
-    {
+public class App {
+    public static void main(String[] args) {
         System.out.print("Введите день недели на английском языке: ");
         Scanner inputDay = new Scanner(System.in);
         String day = inputDay.nextLine();
